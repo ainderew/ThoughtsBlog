@@ -9,6 +9,8 @@ import BackgroundOverlay2 from "../../Assets/background-overlaly2.svg";
 import made4Learing from "../../Assets/Top Blogs/made4Learing.png";
 import helpingHand from "../../Assets/Top Blogs/helpinghand.png";
 import Coffee from "../../Assets/Top Blogs/coffee.png";
+import Desk from "../../Assets/Top Blogs/desk.png";
+
 import human from "../../Assets/a.png";
 
 const Homepage = () =>{
@@ -60,7 +62,12 @@ const Homepage = () =>{
                     </div>
                     
                     {/* BLOG */}
-                    <div className={`${Styles.container} ${Styles.gridTall} ${Styles.article3}`}></div>
+                    <div className={`${Styles.container} ${Styles.gridTall} ${Styles.article3}`}>
+                        <span className={Styles.blogLabel}>Personal</span>
+                        <img src={Desk} alt="desk" className={Styles.blog3Img}/>
+                        <h2 className={Styles.blogTitleContainer3}>My experience freelancing as a web developer</h2>
+                        <button className={Styles.readBlogBtn}>Read More</button>
+                    </div>
                     
                     {/* BLOG */}
                     <div className={`${Styles.container} ${Styles.gridTall} ${Styles.article4}`}></div>

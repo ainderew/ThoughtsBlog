@@ -106,94 +106,114 @@
     // border: 1px solid blue;
     padding: 2rem;
     border-radius: 1rem;
-    box-shadow:  8px 8px 16px #e3e3e3, 
-             -8px -8px 16px #ffffff;
+    box-shadow: 8px 8px 16px #e3e3e3, -8px -8px 16px #ffffff;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-between;
+    transition: 300ms linear;
   }
-  .blogLabel{
-      color: rgba(255, 255, 255, 0.568);
+
+  .container:hover {
+    transform: scale(0.9);
   }
-  .blogTitle{
-      font-size: 1.6rem;
-      font-weight: 600;
-      color: #fff;
-      z-index: 1;
+  .blogLabel {
+    color: rgba(255, 255, 255, 0.568);
   }
-  .blogTitleContainer2{
-      font-size: 1.6rem;
-      font-weight: 600;
-      color: #fff;
-      margin-top: -90%;
-      z-index: 1;
+  .blogTitle {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #fff;
+    z-index: 1;
   }
-  .readBlogBtn{
-      width: 10rem;
-      height: 2.5rem;
-      outline: none;
-      background: #fff;
-      border: none;
-      font-size: .9rem;
-      font-weight: 600;
+  .blogTitleContainer2 {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #fff;
+    margin-top: -90%;
+    z-index: 1;
+  }
+  .blogTitleContainer3 {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #fff;
+    margin-top: -60%;
+    z-index: 1;
+  }
+  .readBlogBtn {
+    width: 10rem;
+    height: 2.5rem;
+    outline: none;
+    background: #fff;
+    border: none;
+    font-size: 0.9rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 300ms linear;
   }
 
   //========== ARCTICLE CONTAINER STYLES =====================================
   .article1 {
     background: #a1c4fd;
     background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
-    box-shadow:  8px 8px 16px #e3e3e3;
+    box-shadow: 8px 8px 16px #e3e3e3;
     position: relative;
-    
-    .blog1Img{
-        width: 50%;
-        position: absolute;
-        right: 3%;
-        top: 50%;
-        transform: translateY(-50%);
+
+    .blog1Img {
+      width: 50%;
+      position: absolute;
+      right: 3%;
+      top: 50%;
+      transform: translateY(-50%);
     }
-    
-    .readBlogBtn{
-        color: #a1c4fd;
+
+    .readBlogBtn {
+      color: #a1c4fd;
     }
   }
-  
+
   .article2 {
     background-image: linear-gradient(to right, #ed6ea0 0%, #ec8c69 100%);
     position: relative;
-    
-    .blog2Img{
-        width: 100%;
-        position: absolute;
-        left: 50%;
-        top: 50%;
-        transform: translate(-60%, -50%);
-        filter: drop-shadow(-30px 10px 4px #4b4b4b4b);
+
+    .blog2Img {
+      width: 100%;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-60%, -50%);
+      filter: drop-shadow(-30px 10px 4px #4b4b4b4b);
     }
-    
   }
+
   .article3 {
     background: #a1c4fd;
     background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+    position: relative;
+
+    .blog3Img {
+      width: 80%;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      filter: drop-shadow(-30px 10px 4px #4b4b4b4b);
+    }
   }
   .article4 {
     background-image: linear-gradient(to top, #e6b980 0%, #eacda3 100%);
-      
   }
   .article5 {
     background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
-      
   }
   .article6 {
-    background-image: linear-gradient(to top, #B2D6D1 0%, #B9D3DB 100%);
+    background-image: linear-gradient(to top, #b2d6d1 0%, #b9d3db 100%);
     position: relative;
-    .blog6Img{
-        height: 100%;
-        position: absolute;
-        top: 0;
-        right: 3%;
-        
+    .blog6Img {
+      height: 100%;
+      position: absolute;
+      top: 0;
+      right: 3%;
     }
   }
 }

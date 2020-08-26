@@ -1,6 +1,7 @@
 import React, {useEffect, useState} from "react";
 import Styles from "./header.module.scss";
 import * as _ from "underscore"
+import { Link } from "react-router-dom";
 
 
 let lastScrollTop = window.pageYOffset;
@@ -41,13 +42,23 @@ const Header = () =>{
     return(
         <div className={headerClass ? Styles.header : `${Styles.header} ${Styles.headerHide}`}>
             <div className={Styles.row1}>
-                <h2 className={Styles.Logo}>Andrew's Blog <span className={Styles.logoSpan}>.</span></h2>
+                <Link className="text-link-none" to="/">
+                    <h2 className={Styles.Logo}>Andrew's Blog <span className={Styles.logoSpan}>.</span></h2>
+                </Link>
             </div>
             <div className={Styles.row2}>
                 <ul className={Styles.ul}>
-                    <li className={Styles.li}>Home</li>
-                    <li className={Styles.li}>Good Reads</li>
-                    <li className={Styles.li}>Free Courses</li>
+                    <Link className="text-link-none" to="/">
+                        <li className={Styles.li}>Home</li>
+                    </Link>
+                    
+                    <Link className="text-link-none" to="/">
+                        <li className={Styles.li}>Comming soon</li>
+                    </Link>
+                    
+                    <Link className="text-link-none" to="/">
+                        <li className={Styles.li}>Comming soon</li>
+                    </Link>
                 </ul>
             </div>
             
