@@ -42,15 +42,15 @@ const Made4Learners = () => {
             <h3 className="blog-h3">There was no calm before the storm</h3>
             <p className="blog-p">
                 As I'm writing about my experiences during the first week of my MADE 4 learners semester I remember my not so smooth experience when enrolling.
-                not to discredit the amount of brain power and hours that went into planning the online enrollment for the thousands of students CIT-U has but in my opinion/experience it could have gone a lot better.
-                As of now about 2 weeks into the semester, I'm due for another changing of schedule and addition of classes due to some of my classes being merged? Im not so sure.
+                this is not in any way discrediting the amount of brain power and hours that went into planning the online enrollment for the thousands of students CIT-U has. I'm no sherlock but I know it was not an easy task. Back to what I was saying, in my opinion it could have gone a lot better and faster if not for the countless of rows of subjects I had to go over and list down for enrollment only on end up
+                back to the excel file and changing my schedules due to some of my classes being merged? Im not sure.
                 <br/><br/>
                 A quick update though, my moodle (another learning platform CIT uses) is still empty despite teachers telling me my name is already enrolled. huh...
             </p>
              
             <h3 className="blog-h3">The Positives</h3>
             <p className="blog-p">
-                Well enough of the negativity while there were some hiccups I can proudly say there were a lot more positives that out weighed them.
+                Well enough of the negativity I'm already sounding like an old man complaining about my lawn and yes while there were some hiccups I can proudly say there were a lot more positives that out weighed them.
                "CIT's faculty are nice" is an understatement to say the least, I don't know how a person can manage to have a kind demeanor after the countless
                complaints and hiccups that are thrown at them by numerous students. As far as my experience goes every teacher from multiple departments have been patient and kind when I seeked assistance and clarifications from them.
                
