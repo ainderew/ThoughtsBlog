@@ -1,0 +1,59 @@
+@import "../../../SCSS/variables/colors";
+
+.section1{    
+    position: relative;
+    z-index: 2;
+}
+
+//HERO PORTION ====================
+.hero{
+    width: 100%;
+    height: 80vh;
+    position: relative;
+    background: url("../../../Assets/blogs/Made\ 4\ Learners/header.jpg") no-repeat center;
+    background-attachment: fixed;
+    
+    .ripped{
+        width: 100%;
+        position: absolute;
+        bottom: -25%;
+    }
+}
+
+.titleHero{
+    width: 100%;
+    height: 30vh;
+    z-index: 2;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    .title{
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 4rem;
+        font-weight:800;
+        line-height: 4.5rem;
+        color: $font-main;
+    }
+    .madeSpan{
+        color: rgb(255, 88, 88);
+        font-weight: 600;
+        font-size: 4rem;
+    }
+    .middleSpan{
+        font-weight: 900;
+        font-size: 5.5rem;
+    }
+    .endSpan{
+        font-weight: 900;
+        font-size: 5.5rem;
+    }
+}
+// END OF HERO PORTION - - - - - - - 
+.section1Inner{
+    // border: 1px solid red;
+    margin-top: 5rem;
+    
+}

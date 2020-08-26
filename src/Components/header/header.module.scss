@@ -1,0 +1,62 @@
+@import "../../SCSS/variables/colors";
+
+
+
+.header{
+    width: 60vw;
+    height: 6rem;
+    padding: 0 2rem;
+    border-radius: .5rem;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 2%;
+    left: 50%;
+    transform: translateX(-50%);
+    // background: #f8f8f8;
+    background: #fff;
+    box-shadow: $box-shadow2;
+    z-index: 10;
+    transition: 300ms linear;
+    
+    
+    
+    
+    .row1{
+        .logoSpan{
+            color: red;
+        }
+    }
+    .row2{
+        flex: 1;
+        display: flex;
+        justify-content: flex-end;
+        .ul{
+            display: flex;
+        }
+        .li{
+            list-style-type: none;
+            margin: 0 2rem;
+        }
+        
+    }
+    .row3{
+        .button{
+            background: #B3D5D3;
+            width: 13rem;
+            height: 2.5rem;
+            border: none;
+            color: #fff;
+            font-size: 1rem;
+            margin-left: 2rem;
+            box-shadow: $box-shadow2;
+            outline: none;
+            // font-weight: 600;
+        }
+        
+    }
+}
+
+.headerHide{
+    top: -7rem;
+}

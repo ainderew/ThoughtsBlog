@@ -1,0 +1,199 @@
+@import "../../SCSS/variables/colors";
+
+.section1 {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+
+  .overlay {
+    height: 100vh;
+    position: absolute;
+    left: 0;
+  }
+
+  .human {
+    height: 100%;
+    z-index: 1;
+    position: absolute;
+    bottom: 0;
+    left: 0%;
+    filter: drop-shadow(-30px 10px 4px #4b4b4b4b);
+  }
+
+  .textContainer {
+    position: absolute;
+    right: 5%;
+    margin-top: 3rem;
+  }
+
+  .mainHeader {
+    font-size: 8rem;
+    font-weight: 900;
+    color: $font-main;
+    margin-bottom: 2rem;
+  }
+
+  .subHeader {
+    font-size: 1.6rem;
+    margin-bottom: -1.5rem;
+  }
+
+  .nameHeader {
+    font-size: 1.1rem;
+  }
+}
+
+.section2 {
+  width: 100%;
+  min-height: 100vh;
+  height: 100%;
+  background: #fff;
+  position: relative;
+  overflow: hidden;
+  box-shadow: $box-shadow-upper;
+  z-index: 1;
+
+  .overlay2 {
+    height: 100vh;
+    position: absolute;
+    left: 0;
+  }
+
+  .Section2HeaderContainer {
+    position: absolute;
+    right: 5%;
+    top: 5rem;
+
+    .section2Header {
+      font-size: 2rem;
+      font-weight: 600;
+    }
+
+    .section2SubHeader {
+      font-size: 1rem;
+      font-weight: 300;
+      color: $font-secondary;
+    }
+  }
+
+  .section2Inner {
+    min-height: calc(100vh - 10rem);
+    height: 100%;
+    margin-top: 10rem;
+    padding: 2rem;
+    z-index: 1;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    // grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    grid-auto-rows: 50px;
+    gap: 1rem;
+  }
+
+  .gridTall {
+    grid-row: span 7 / auto;
+    grid-column: span 1 / auto;
+  }
+
+  .gridLong {
+    grid-column: span 2 / auto;
+    grid-row: span 5 / auto;
+  }
+
+  .container {
+    // border: 1px solid blue;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow:  8px 8px 16px #e3e3e3, 
+             -8px -8px 16px #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  .blogLabel{
+      color: rgba(255, 255, 255, 0.568);
+  }
+  .blogTitle{
+      font-size: 1.6rem;
+      font-weight: 600;
+      color: #fff;
+      z-index: 1;
+  }
+  .blogTitleContainer2{
+      font-size: 1.6rem;
+      font-weight: 600;
+      color: #fff;
+      margin-top: -90%;
+      z-index: 1;
+  }
+  .readBlogBtn{
+      width: 10rem;
+      height: 2.5rem;
+      outline: none;
+      background: #fff;
+      border: none;
+      font-size: .9rem;
+      font-weight: 600;
+  }
+
+  //========== ARCTICLE CONTAINER STYLES =====================================
+  .article1 {
+    background: #a1c4fd;
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+    box-shadow:  8px 8px 16px #e3e3e3;
+    position: relative;
+    
+    .blog1Img{
+        width: 50%;
+        position: absolute;
+        right: 3%;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    
+    .readBlogBtn{
+        color: #a1c4fd;
+    }
+  }
+  
+  .article2 {
+    background-image: linear-gradient(to right, #ed6ea0 0%, #ec8c69 100%);
+    position: relative;
+    
+    .blog2Img{
+        width: 100%;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-60%, -50%);
+        filter: drop-shadow(-30px 10px 4px #4b4b4b4b);
+    }
+    
+  }
+  .article3 {
+    background: #a1c4fd;
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+  }
+  .article4 {
+    background-image: linear-gradient(to top, #e6b980 0%, #eacda3 100%);
+      
+  }
+  .article5 {
+    background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+      
+  }
+  .article6 {
+    background-image: linear-gradient(to top, #B2D6D1 0%, #B9D3DB 100%);
+    position: relative;
+    .blog6Img{
+        height: 100%;
+        position: absolute;
+        top: 0;
+        right: 3%;
+        
+    }
+  }
+}

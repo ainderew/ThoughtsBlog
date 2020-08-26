@@ -1,0 +1,61 @@
+@import "../SCSS/variables/colors";
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "poppins";
+}
+
+.page{
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+}
+
+
+
+.center{
+    display: flex;
+    justify-content: center;
+}
+
+.inner{
+    width: 80vw;
+}
+
+
+.blogInner{
+    width: 40vw;
+}
+
+
+//FONT-STYLES
+.blog-p{
+    font-size: 1rem;
+    text-align: justify;
+    margin: 3rem 0;
+}
+.blog-h3{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.text-link{
+    text-decoration: none;
+}
+
+//COMMON CLASSES
+.justify-wrapper{
+    text-align: justify;
+}
+
+.ulAuthor{
+    display: flex;
+}
+
+.liAuthor{
+    list-style-type: none;
+    margin: 0 .5rem;
+    font-size: .9rem;
+    color: $font-secondary;
+}
+
